@@ -3,7 +3,10 @@ import {useEffect} from "react";
 const tg = window.Telegram.WebApp;
 
 function App() {
+
     useEffect(() => {
+
+    }, []);(() => {
         tg.ready();
     }, []);
     const onClose = () => {
@@ -12,7 +15,7 @@ function App() {
   return (
     <div className="App">
       it is working well
-        <button onClick={onClose}>Close</button>
+        <button onClick = {onClose}>Close</button>
     </div>
   );
 }
