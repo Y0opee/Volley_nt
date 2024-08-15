@@ -1,11 +1,11 @@
 import './App.css';
 import {useEffect} from "react";
+import './html_elements/button/button.jsx'
 const tg = window.Telegram.WebApp;
 
 function App() {
 
     useEffect(() => {
-
     }, []);(() => {
         tg.ready();
     }, []);
